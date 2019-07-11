@@ -18,10 +18,7 @@ jobs:
           command: "apt-get update && apt-get install zip -y"
       - run:
           name: Zip artifacts
-          command: |
-                    mkdir /tmp/artifacts
-                    zip -ur /tmp/artifacts/artifacts.zip out
-                   |
+          command: "mkdir /tmp/artifacts && zip -ur /tmp/artifacts/artifacts.zip out"
       - store_artifacts:
           path: /tmp/artifacts
           destination: artifacts.zip
