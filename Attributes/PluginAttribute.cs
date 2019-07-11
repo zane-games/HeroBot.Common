@@ -1,4 +1,11 @@
-﻿namespace HeroBot.Common.Attributes
+﻿using Discord.Commands;
+using Discord.WebSocket;
+using HeroBot.Common.Interfaces;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace HeroBot.Common.Attributes
 {
     public class PluginAttribute : PreconditionAttribute
     {
