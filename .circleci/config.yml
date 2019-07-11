@@ -9,7 +9,6 @@ jobs:
       - run:
           name: Restore
           command: dotnet restore
-
       - run:
           name: Build SDK
           command: dotnet build -c Release -o out

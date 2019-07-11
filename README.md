@@ -11,6 +11,8 @@
 
 ## `🤞 Usage`
 
+[Read the docs here]()
+
 ## `❤ Support the project`
 You can support the project by joining our discord or invite our bot ✅ We accept donations.
 

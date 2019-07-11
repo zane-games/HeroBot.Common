@@ -22,22 +22,14 @@ namespace HeroBot.Common.Attributes
                         if (guild.DisabledCommands.Contains(command.Name))
                         {
                             return Task.FromResult(PreconditionResult.FromError("This command is disabled"));
-                            
                         }
                         else return Task.FromResult(PreconditionResult.FromSuccess());
                     }
-                    else
-                    {
-                        return Task.FromResult(PreconditionResult.FromError("This plugin is not enabled"));
-                    }
+                    else return Task.FromResult(PreconditionResult.FromError("This plugin is not enabled"));
                 }
-                else
-                {
-                    return Task.FromResult(PreconditionResult.FromError("I can't find you guild in my database"));
-                }
+                else return Task.FromResult(PreconditionResult.FromError("I can't find you guild in my database"));
             }
-            else
-                return Task.FromResult(PreconditionResult.FromSuccess());
+            else return Task.FromResult(PreconditionResult.FromSuccess());
         }
     }
 }
