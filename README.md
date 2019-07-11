@@ -1,6 +1,8 @@
 ﻿# HeroBot SDK for creating awesome bot plugins
-[![Discord Bots](https://discordbots.org/api/widget/servers/491673480006205461.svg)](https://discordbots.org/bot/491673480006205461)
 <p align="center">
+  <a href="https://discordbots.org/bot/491673480006205461">
+	<img src="https://discordbots.org/api/widget/servers/491673480006205461.svg)" alt="Discord Bots" />
+  </a>
   <img src="https://github.com/MatthieuCoder/HeroBot.Common/raw/master/Images/LogoWork.png" />
 </p>
 
