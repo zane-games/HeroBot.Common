@@ -14,3 +14,9 @@ jobs:
       - run:
           name: Build SDK
           command: dotnet build -c Release -o out
+      - run:
+          name: Zip artifacts
+          command: zip -ur artifacts.zip out
+      - store_artifacts:
+          path: /project/artifacts.zip
+          destination: artifacts.zip
