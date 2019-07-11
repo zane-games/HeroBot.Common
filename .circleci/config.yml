@@ -15,7 +15,7 @@ jobs:
           command: dotnet build -c Release -o out
       - run:
           name: Install Zip
-          command: "apt-get update && apt-get install zip"
+          command: "apt-get update && apt-get install zip -y"
       - run:
           name: Zip artifacts
           command: zip -ur artifacts.zip out
