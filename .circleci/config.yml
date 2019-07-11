@@ -2,15 +2,15 @@
 jobs:
   build:
     docker:
-      - image: debian:stretch
+      - image: mcr.microsoft.com/dotnet/core/sdk:3.0
 
     steps:
       - checkout
 
       - run:
-          name: Greeting
-          command: echo Hello, world.
+          name: Restore
+          command: dotnet restore
 
       - run:
-          name: Print the Current Time
-          command: date
+          name: Build SDK
+          command: dotnet build -c Release -o out

@@ -3,6 +3,9 @@
   <a href="https://discordbots.org/bot/491673480006205461">
 	<img src="https://discordbots.org/api/widget/servers/491673480006205461.svg" alt="Discord Bots" />
   </a>
+  <a href="https://circleci.com/gh/MatthieuCoder/HeroBot.Common">
+	<img src="https://circleci.com/gh/MatthieuCoder/HeroBot.Common.svg?style=svg" alt="CircleCI" />
+  </a>
   <img src="https://github.com/MatthieuCoder/HeroBot.Common/raw/master/Images/LogoWork.png" />
 </p>
 
