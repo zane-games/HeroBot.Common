@@ -4,8 +4,8 @@ using System.Text;
 
 namespace HeroBot.Common.Attributes
 {
-    [AttributeUsage(AttributeTargets.Assembly)]
-    class PluginAttribute : Attribute
+    [AttributeUsage(AttributeTargets.Class)]
+    public class ServiceAttribute : Attribute
     {
     }
 }

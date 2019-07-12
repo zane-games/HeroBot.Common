@@ -12,9 +12,9 @@ namespace HeroBot.Common.Helpers
         public static EmbedBuilder WithRandomColor(this EmbedBuilder embedBuilder) {
             return embedBuilder.WithColor(Colors[Random.Next() % Colors.Length]);
         }
-        public static EmbedBuilder WithCoprightFooter(this EmbedBuilder embedBuilder,string userName = null,string command = null)
+        public static EmbedBuilder WithCopyrightFooter(this EmbedBuilder embedBuilder,string userName = null,string command = null)
         {
-            return embedBuilder.WithFooter(new EmbedFooterBuilder().WithIconUrl("https://cdn.discordapp.com/avatars/491673480006205461/30abe7a1feffb0b06a1611a94fbc1248.png").WithText($"{(command == null ? String.Empty : $"Command {command}")} © HeroBot {DateTime.Now.Year} - {(userName == null ? String.Empty : $"Requested by {userName}")}"));
+            return embedBuilder.WithCurrentTimestamp().WithFooter(new EmbedFooterBuilder().WithIconUrl("https://cdn.discordapp.com/avatars/491673480006205461/30abe7a1feffb0b06a1611a94fbc1248.png").WithText($"{(command == null ? String.Empty : $"Command {command}")} © HeroBot {DateTime.Now.Year} - {(userName == null ? String.Empty : $"Requested by {userName}")}"));
         }
     }
 }

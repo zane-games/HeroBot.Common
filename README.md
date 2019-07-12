@@ -12,6 +12,7 @@
 ## `🤞 Usage`
 
 [Read the docs here](https://github.com/MatthieuCoder/HeroBot.Common/wiki)
+[Example project]()
 
 ## `❤ Support the project`
 You can support the project by joining our discord or invite our bot ✅ We accept donations.
@@ -47,5 +48,6 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.```
+SOFTWARE.
+```
 THIS REPOSITORY CONTAINS EDITED CODE FROM https://github.com/Yucked/Prototype

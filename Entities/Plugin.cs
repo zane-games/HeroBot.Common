@@ -6,6 +6,6 @@ namespace HeroBot.Common.Entities
 {
     public class Plugin
     {
-        public string Name;
+        public string Name { get; set; }
     }
 }
