@@ -1,17 +1,16 @@
 ﻿using Discord.Commands;
 using HeroBot.Common.ExtendedModules;
-using System;
 using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
 
-namespace HeroBot.Common.Entities
+namespace HeroBot.Common.Interfaces
 {
-    public sealed class ContextEntity
+    public class AssemblyEntity
     {
-        public string Name { get; set; }
-        public ModuleInfo Module { get; set; }
         public Assembly Assembly { get; set; }
         public ModuleLoadContext Context { get; set; }
+        public string Name { get; set; }
+        public List<ModuleInfo> Module { get; set; }
+        public IPluginRefferal pluginRefferal { get; set; }
     }
 }
