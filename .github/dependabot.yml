@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: Discord.Net
+    versions:
+    - 2.2.0
+    - 2.3.0
+  - dependency-name: Npgsql
+    versions:
+    - 5.0.3
+  - dependency-name: FluentMigrator
+    versions:
+    - 3.2.11
+  - dependency-name: FluentMigrator.Runner.Postgres
+    versions:
+    - 3.2.11
+  - dependency-name: Dapper
+    versions:
+    - 2.0.78
