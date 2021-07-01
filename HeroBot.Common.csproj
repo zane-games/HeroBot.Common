@@ -21,7 +21,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.0.0-preview8.19405.4" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0-preview8.19405.4" />
     <PackageReference Include="Npgsql" Version="4.1.0-preview2" />
-    <PackageReference Include="StackExchange.Redis" Version="2.0.601" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.62" />
   </ItemGroup>
 
   <ItemGroup>
